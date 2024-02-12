@@ -1,0 +1,28 @@
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #0f252b;
+    color: lawngreen;
+}
+.green{
+    /*color: lawngreen;*/
+    font-size: 19px;
+}
+
+.form{
+    background: aliceblue;
+    padding: 20px;
+    max-width: 200px;
+    margin-inline: auto;
+    margin-top: 20vh;
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input, button{
+        padding: 8px;
+        border-radius: 8px;
+        border: 1px solid #0f252b;
+    }
+}
